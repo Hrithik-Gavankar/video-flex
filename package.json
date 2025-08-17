@@ -1,0 +1,31 @@
+{
+  "name": "video-flex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hrithik-Gavankar/video-flex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hrithik-Gavankar/video-flex/issues"
+  },
+  "homepage": "https://github.com/Hrithik-Gavankar/video-flex#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.0.5",
+    "video-flex": "."
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
